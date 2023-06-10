@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.key {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.key:hover {
+  background-color: #d1d1d1;
+}
+
